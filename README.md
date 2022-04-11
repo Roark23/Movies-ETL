@@ -1,8 +1,6 @@
 # Movies-ETL
 ## Overiview
-Raw data exists in multiple places and forms. In order to perform any kind of data analysis, this data needs to be cleaned and structured. The ETL Data pipeline process – Extract, Transform, and Load is a core concept in data engineering, ensuring that data is consistent, maintains its integrity, and nontheless strives for automatization of data wrangling. Without a consistent and robust data structure, it’s nearly impossible to perform any meaningful analysis.
-
-The goal is to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data—and performs the ETL process by adding the data to a PostgreSQL database.
+In order to perform any kind of data analysis, any type of raw data must first be cleaned and structured. The ETL Data pipeline process – Extract, Transform, and Load is a core concept in data engineering, ensuring that data is consistent. Without a consistent and robust data structure, it’s nearly impossible to perform any meaningful analysis. The goal is to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data—and performs the ETL process by adding the data to a PostgreSQL database.
 
 ## Purpose
 The Amazing Prime, a video streaming company, is sponsoring a hackathon, where participants try to predict which low budget movies being released will become popular. Participants need a clean data set in order to perform analyses for their algorithms. In order to provide an organized and clean dataset, this project utlizes the ETL process.
